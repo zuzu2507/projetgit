@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>Devinez le nombre entre <span id="min-value">1</span> et <span id="max-value">100</span>.</p>
+        
+        <input type="number" id="guess-input" placeholder="Entrez votre nombre">
+        <button id="guess-button">Deviner</button>
+
+        <div class="result">
+            <p id="message">Faites votre premier essai !</p>
+            <p>Essais : <span id="attempts">0</span></p>
+        </div>
+
+        <button id="restart-button" class="hidden">Recommencer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
